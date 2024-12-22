@@ -1,0 +1,1750 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-right: 2px;
+}
+.ceramics-items .cards{
+  margin-top: 0px;
+}
+.logo h4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.52px;
+  text-align: center;
+  padding-top: 20px;
+  color: #22202E;
+  font-family: "Clash Display";
+}
+.logo .search {
+  width: 16px;
+  height: 16px;
+  margin: 26px -53px 90px;
+}
+.logo .buy_user {
+  display: flex;
+  justify-content: space-between;
+  width: 48px;
+  margin-right: -53px;
+}
+.logo .buy_user .shop,
+.logo .buy_user .user {
+  width: 16px;
+  height: 16px;
+  margin: 26px 0 90px;
+}
+
+.header-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 303px;
+}
+.header-list li {
+  list-style: none;
+  color: #726E8D;
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover{
+  
+  text-shadow: #60b6a3 1px 0px 10px;
+}
+a:active{
+  color:#60b6a3 ;
+}
+.info {
+  width: 760px;
+  height: 584px;
+  background-color: #2A254B;
+}
+
+.collection-items {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.collection-items img {
+  width: 520px;
+  height: 584px;
+}
+
+.features {
+  margin-top: 60px;
+  margin-left: 60px;
+  margin-right: 187px;
+}
+.features h2 {
+  font-family: "Clash Display";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44.8px;
+  text-align: left;
+  color: white;
+}
+
+button {
+  width: 170px;
+  height: 56px;
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: white;
+  background-color: rgba(249, 249, 249, 0.15);
+  border: none;
+  margin-top: 41px;
+}
+
+.info p {
+  color: white;
+  font-family: "Satoshi";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin-top: 196px;
+  margin-left: 60px;
+  margin-right: 98px;
+  margin-bottom: 60px;
+}
+
+.difference-items {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 86px;
+}
+.difference-items h3 {
+  font-family: "Clash Display";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+  color: #2A254B;
+  margin-top: 60px;
+  margin-bottom: 51px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+h4 {
+  font-family: "Clash Display";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #2A254B;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+}
+.text p {
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #2A254B;
+  padding-top: 10px;
+}
+.text img {
+  padding-bottom: 16px;
+}
+
+.delivery {
+  margin-left: 5px;
+  width: 270px;
+}
+
+.checkmark {
+  margin-left: 58px;
+  width: 266px;
+}
+
+.card {
+  margin-left: 58px;
+  width: 235px;
+}
+
+.sprout {
+  margin-left: 91px;
+  width: 265px;
+}
+
+.fphoto {
+  width: 305px;
+  height: 375px;
+}
+
+.ceramics-items {
+  margin-top: 162px;
+}
+.ceramics-items h3 {
+  font-family: "Clash Display";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39.36px;
+  color: #2A254B;
+  margin-bottom: 33px;
+  text-align: left;
+}
+.ceramics-items p {
+  font-family: "Satoshi";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #2A254B;
+}
+.ceramics-items button {
+  background-color: rgba(249, 249, 249, 0.15);
+  color: #2A254B;
+  margin-top: 35px;
+  margin-bottom: 56px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+#about {
+  padding-top: 20px;
+}
+#about p {
+  padding-top: 8px;
+}
+
+.but-container {
+  display: flex;
+  justify-content: center;
+}
+
+.popular-items {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 70px;
+}
+.popular-items h3 {
+  font-family: "Clash Display";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39.36px;
+  color: #2A254B;
+  margin-bottom: 33px;
+  text-align: left;
+}
+.popular-items p {
+  font-family: "Satoshi";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #2A254B;
+}
+.popular-items button {
+  background-color: rgba(249, 249, 249, 0.15);
+  color: #2A254B;
+  margin-top: 42px;
+  margin-bottom: 48px;
+}
+
+.cards {
+  margin-top: -5px;
+}
+
+.benefits {
+  background-color: #F9F9F9;
+  height: 481px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.benefits h1 {
+  font-family: "Clash Display";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 50.4px;
+  text-align: center;
+  color: #2A254B;
+}
+.benefits .benefits-item {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 170px);
+  margin-left: 94px;
+  gap: 71px;
+  margin-top: -10px;
+}
+.benefits .benefits-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 68px;
+}
+.benefits .benefits-text p {
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #2A254B;
+  width: 470px;
+}
+.benefits .form {
+  margin-bottom: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.benefits .form ::-moz-placeholder {
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  background-color: rgba(249, 249, 249, 0.15);
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 32px;
+}
+.benefits .form ::placeholder {
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  background-color: rgba(249, 249, 249, 0.15);
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 32px;
+}
+.benefits .field-benefits {
+  width: 354px;
+  height: 56px;
+  border: none;
+}
+.benefits .button-benefits {
+  width: 118px;
+  height: 56px;
+  background-color: #2A254B;
+  color: white;
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  border: none;
+  margin-top: 0;
+}
+
+.studio-item {
+  background-color: #F9F9F9;
+  display: flex;
+  flex-direction: row;
+}
+.studio-item .left {
+  background-color: white;
+  padding-left: 85px;
+  padding-right: 122px;
+  padding-top: 45px;
+}
+.studio-item .left h3 {
+  font-family: "Clash Display";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+  text-align: left;
+  padding-top: 28px;
+  color: #2A254B;
+  width: 514px;
+}
+.studio-item .left p {
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: #505977;
+}
+.studio-item .left .fline {
+  padding-top: 27px;
+}
+.studio-item .left .sline {
+  padding-top: 20px;
+}
+.studio-item .left button {
+  background-color: #F9F9F9;
+  width: 150px;
+  color: #2A254B;
+  margin-top: 196px;
+  margin-bottom: 54px;
+}
+
+footer {
+  background-color: #2A254B;
+}
+footer a {
+  color: white;
+}
+footer h4 {
+  font-family: "Clash Display";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.68px;
+  text-align: left;
+  color: white;
+  padding-bottom: 12px;
+}
+footer li {
+  font-family: "Satoshi";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  list-style: none;
+  color: white;
+  padding-bottom: 12px;
+}
+
+nav {
+  display: flex;
+  padding-top: 55px;
+  padding-left: 2px;
+}
+
+.menu {
+  padding-bottom: 65px;
+}
+
+.categories {
+  padding-left: 109px;
+}
+
+.company {
+  padding-left: 133px;
+}
+
+.footer-first {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #4E4D93;
+}
+
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 109px;
+  padding-top: 60px;
+}
+.footer-form h4 {
+  margin-top: -3px;
+}
+
+.field-footer {
+  width: 509px;
+  height: 56px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: none;
+}
+.field-footer ::-moz-placeholder {
+  color: white;
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 32px;
+}
+.field-footer::placeholder {
+  color: white;
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 32px;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3px;
+}
+
+.inputs .footer-button {
+  width: 118px;
+  height: 56px;
+  background-color: white;
+  color: #2A254B;
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  border: none;
+  margin-top: 0px;
+}
+
+.footer-last {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 28px;
+  padding-bottom: 20px;
+}
+.footer-last p {
+  font-family: "Satoshi";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: white;
+}
+button:hover{
+  border: 2px solid #4E4D93;
+}
+.footer-button:hover{
+  border: 2px solid #4E4D93;
+}
+.button-benefits:hover{
+  border: 2px solid #4E4D93;
+}
+button:active{
+  background-color:  #4E4D93;
+}
+.footer-button:active{
+  background-color:  #4E4D93;
+}
+.button-benefits:active{
+ background-color:  #4E4D93;
+}
+.benefits .field-benefits {
+  width: 354px;
+  height: 56px;
+  border: none;
+  background-color: #F9F9F9;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+}
+.cards .firstcard,
+.cards .seccard,
+.cards .thirdcard,
+.cards .fourthcard {
+  transition: 1s;
+}
+.cards .firstcard:hover,
+.cards .seccard:hover,
+.cards .thirdcard:hover,
+.cards .fourthcard:hover {
+  transform: scale(1.2);
+  box-shadow: #2A254B 1px 0px 10px;
+}
+
+@media screen and (max-width:1439px){
+  .container {
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4.86vw;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo h4 {
+    font-size: 1.67vw;
+    font-weight: 400;
+    line-height: 2.04vw;
+    text-align: center;
+    padding-top: 1.46vw;
+    color: #22202E;
+    font-family: "Clash Display";
+    padding-left: 0vw;
+  }
+  
+  .logo .search {
+    width: 1.11vw;
+    height: 1.11vw;
+    margin: 1.78vw -3.68vw 5.56vw;
+  }
+  
+  .logo .buy_user {
+    display: flex;
+    justify-content: space-between;
+    width: 3.33vw;
+    margin-right: -3.68vw;
+  }
+  
+  .logo .buy_user .shop,
+  .logo .buy_user .user {
+    width: 1.11vw;
+    height: 1.11vw;
+    margin: 1.78vw 0 5.56vw;
+  }
+  
+  .header-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.39vw 21.04vw;
+  }
+  
+  .header-list li {
+    list-style: none;
+    color: #726E8D;
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+    text-align: left;
+  }
+  .info {
+    width: 52.78vw;
+    height: 40.56vw;
+    background-color: #2A254B;
+  }
+  
+  .collection-items {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5.56vw;
+    justify-content: center;
+    margin-bottom: 4.17vw;
+  }
+  
+  .collection-items img {
+    width: 36.11vw;
+    height: 40.56vw;
+  }
+  
+  .features {
+    margin-top: 4.17vw;
+    margin-left: 4.17vw;
+    margin-right: 13.02vw;
+  }
+  
+  .features h2 {
+    font-family: "Clash Display";
+    font-size: 2.22vw;
+    font-weight: 400;
+    line-height: 3vw;
+    text-align: left;
+    color: white;
+  }
+  
+  button {
+    width: 11.94vw;
+    height: 3.89vw;
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.67vw;
+    color: white;
+    background-color: rgba(249, 249, 249, 0.15);
+    border: none;
+    margin-top: 2.84vw;
+  }
+  .seccard img{
+    width: 21vw;
+     height: 26vw;
+  }
+  .thirdcard img{
+    width: 21vw;
+     height: 26vw;
+  }
+  .fourthcard img{
+    width: 21vw;
+     height: 26vw;
+  }
+  .text img{
+    width: 1.7vw;
+    height: 2.5vw;
+  }
+  .icons img{
+    width: 1.7vw;
+    height: 2.5vw;
+  }
+  .icons img:nth-of-type(1),  .icons img:nth-of-type(2),.icons img:nth-of-type(3),.icons img:nth-of-type(5)
+  {
+    width: 1.7vw;
+    height: 1.25vw; 
+  }
+  .icons img:nth-of-type(4)
+  {
+    width: 1.6vw;
+    height: 1.4vw; 
+  }
+  .icons img:nth-of-type(6)
+  {
+    width: 1.875vw;
+    height: 1.5vw; 
+  }
+  .info p {
+    color: white;
+    font-family: "Satoshi";
+    font-size: 1.5vw;
+    font-weight: 400;
+    line-height: 1.875vw;
+    margin-top: 13.64vw;
+    margin-left: 4.17vw;
+    margin-right: 6.81vw;
+    margin-bottom: 4.17vw;
+  }
+  .difference-items {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 6.25vw;
+  }
+  
+  .difference-items h3 {
+    font-family: "Clash Display";
+    font-size: 1.67vw;
+    font-weight: 400;
+    line-height: 2.33vw;
+    color: #2A254B;
+    margin-top: 4.17vw;
+    margin-bottom: 3.54vw;
+    text-align: center;
+    margin-right: 1.39vw;
+  }
+  
+  h4 {
+    font-family: "Clash Display";
+    font-size: 1.39vw;
+    font-weight: 400;
+    line-height: 1.94vw;
+    text-align: left;
+    color: #2A254B;
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .text p {
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.67vw;
+    text-align: left;
+    color: #2A254B;
+    padding-top: 0.56vw;
+  }
+  
+  .text img {
+    padding-bottom: 1.11vw;
+  }
+  
+  .delivery {
+    margin-left: 0.35vw;
+    width: 18.75vw;
+  }
+  
+  .checkmark {
+    margin-left: 4.03vw;
+    width: 18.5vw;
+  }
+  
+  .card {
+    margin-left: 4.03vw;
+    width: 16.32vw;
+  }
+  
+  .sprout {
+    margin-left: 6.32vw;
+    width: 18.6vw;
+  }
+  
+  .fphoto {
+    width: 21.18vw;
+    height: 26.04vw;
+  }
+  
+  .ceramics-items {
+    margin-top: 11.25vw;
+  }
+  
+  .ceramics-items h3 {
+    font-family: "Clash Display";
+    font-size: 2.22vw;
+    font-weight: 400;
+    line-height: 2.73vw;
+    color: #2A254B;
+    margin-bottom: 2.29vw;
+    text-align: left;
+  }
+  
+  .ceramics-items p {
+    font-family: "Satoshi";
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.88vw;
+    text-align: left;
+    color: #2A254B;
+  }
+  
+  .ceramics-items button {
+    background-color: rgba(249, 249, 249, 0.15);
+    color: #2A254B;
+    margin-top: 2.57vw;
+    margin-bottom: 3.89vw;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 1.39vw;
+    flex-direction: row;
+  }
+  #about {
+    padding-top: 1.39vw;
+  }
+  
+  #about p {
+    padding-top: 0.56vw;
+  }
+  .popular-items .cards .firstcard img{
+    width: 43.75vw;
+    height: 26vw;
+  }
+  .but-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .popular-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 4.86vw;
+  }
+  
+  .popular-items h3 {
+    font-family: "Clash Display";
+    font-size: 2.22vw;
+    font-weight: 400;
+    line-height: 2.73vw;
+    color: #2A254B;
+    margin-bottom: 2.29vw;
+    text-align: left;
+  }
+  
+  .popular-items p {
+    font-family: "Satoshi";
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.88vw;
+    text-align: left;
+    color: #2A254B;
+  }
+  
+  .popular-items button {
+    background-color: rgba(249, 249, 249, 0.15);
+    color: #2A254B;
+    margin-top: 2.92vw;
+    margin-bottom: 3.33vw;
+  }
+  
+  .cards {
+    margin-top: -0.14vw;
+  }
+  
+  .benefits {
+    background-color: #F9F9F9;
+    height: 33.33vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .benefits h1 {
+    font-family: "Clash Display";
+    font-size: 2.5vw;
+    font-weight: 400;
+    line-height: 3.5vw;
+    text-align: center;
+    color: #2A254B;
+  }
+  
+  .benefits .benefits-item {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 11.81vw);
+    margin-left: 6.53vw;
+    gap: 4.86vw;
+    margin-top: -0.69vw;
+  }
+  
+  .benefits .benefits-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.11vw;
+    margin-top: 4.72vw;
+  }
+  
+  .benefits .benefits-text p {
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.67vw;
+    text-align: center;
+    color: #2A254B;
+    width: 32.64vw;
+  }
+  
+  .benefits .form {
+    margin-bottom: 3.75vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .benefits .form ::placeholder {
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+    text-align: left;
+    background-color: rgba(249, 249, 249, 0.15);
+    padding-top: 1.18vw;
+    padding-bottom: 1.18vw;
+    padding-left: 2.22vw;
+  }
+  
+  .benefits .field-benefits {
+    width: 24.58vw;
+    height: 3.89vw;
+    border: none;
+  }
+  
+  .benefits .button-benefits {
+    width: 8.19vw;
+    height: 3.89vw;
+    background-color: #2A254B;
+    color: white;
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.67vw;
+    text-align: center;
+    border: none;
+    margin-top: 0;
+  }
+  
+  .studio-item {
+    background-color: #F9F9F9;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .studio-item .left {
+    background-color: white;
+    padding-left: 5.90vw;
+    padding-right: 8.47vw;
+    padding-top: 3.13vw;
+  }
+  
+  .studio-item .left h3 {
+    font-family: "Clash Display";
+    font-size: 1.67vw;
+    font-weight: 400;
+    line-height: 2.33vw;
+    text-align: left;
+    padding-top: 1.94vw;
+    color: #2A254B;
+    width: 35.42vw;
+  }
+  
+  .studio-item .left p {
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+    text-align: left;
+    color: #505977;
+  }
+  
+  .studio-item .left .fline {
+    padding-top: 1.88vw;
+  }
+  
+  .studio-item .left .sline {
+    padding-top: 1.39vw;
+  }
+  
+  .studio-item .left button {
+    background-color: #F9F9F9;
+    width: 10.42vw;
+    color: #2A254B;
+    margin-top: 13.64vw;
+    margin-bottom: 3.75vw;
+  }
+  
+  footer {
+    background-color: #2A254B;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer h4 {
+    font-family: "Clash Display";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.37vw;
+    text-align: left;
+    color: white;
+    padding-bottom: 0.83vw;
+  }
+  
+  footer li {
+    font-family: "Satoshi";
+    font-size: 0.97vw;
+    font-weight: 400;
+    line-height: 1.32vw;
+    text-align: left;
+    list-style: none;
+    color: white;
+    padding-bottom: 0.83vw;
+  }
+  
+  nav {
+    display: flex;
+    padding-top: 3.81vw;
+    padding-left: 0.14vw;
+  }
+  
+  .menu {
+    padding-bottom: 4.86vw;
+  }
+  
+  .categories {
+    padding-left: 7.57vw;
+  }
+  
+  .company {
+    padding-left: 9.24vw;
+  }
+  
+  .footer-first {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #4E4D93;
+  }
+
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 7.57vw;
+    padding-top: 4.03vw;
+  }
+  
+  .footer-form h4 {
+    margin-top: -0.21vw;
+  }
+  
+  .field-footer {
+    width: 35.52vw;
+    height: 3.89vw;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+  }
+  
+  .field-footer::placeholder {
+    color: white;
+    font-family: 'Satoshi';
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+    text-align: left;
+    padding-top: 1.18vw;
+    padding-bottom: 1.18vw;
+    padding-left: 2.22vw;
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.21vw;
+  }
+  
+  .inputs .footer-button {
+    width: 8.19vw;
+    height: 3.89vw;
+    background-color: white;
+    color: #2A254B;
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.67vw;
+    text-align: center;
+    border: none;
+    margin-top: 0;
+  }
+  
+  .footer-last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1.67vw;
+    padding-bottom: 1.39vw;
+  }
+  
+  .footer-last p {
+    font-family: "Satoshi";
+    font-size: 0.97vw;
+    font-weight: 400;
+    line-height: 1.32vw;
+    text-align: left;
+    color: white;
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1.94vw;
+  }
+  .studio-item img {
+    width: 50vw;
+    height: 41.85vw;
+  }
+}
+@media screen and (max-width:768px) 
+{
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.39vw;
+    flex-direction:row;
+    justify-content: center;
+}
+.fphoto {
+  width: 30vw;
+  height: 35vw;
+}
+.seccard img{
+  width: 30vw;
+  height: 35vw;
+}
+.thirdcard img{
+  width: 30vw;
+  height: 35vw;
+}
+.fourthcard img{
+  width: 30vw;
+  height: 35vw;
+}
+.difference-items {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5.97vw;
+  width: 50%;
+}
+.card {
+  margin-left: 0.35vw;
+  width: 16.32vw;
+  padding-top:5vw;
+}
+.sprout {
+  margin-left: 14.5vw;
+  width: 18.51vw;
+  padding-top: 5vw;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.checkmark {
+  margin-left: 4.03vw;
+  width: 18.54vw;
+}
+.difference-items {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5.97vw;
+  width: 50%;
+}
+.card {
+  margin-left: 0.35vw;
+  width: 16.32vw;
+  padding-top:5vw;
+}
+.sprout {
+  margin-left: 14.5vw;
+  width: 18.51vw;
+  padding-top: 5vw;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.checkmark {
+  margin-left: 12vw;
+  width: 18.54vw;
+}
+.ceramics-items h3 {
+  font-family: "Clash Display";
+  font-size: 2.22vw;
+  font-weight: 400;
+  line-height: 2.73vw;
+  color: #2A254B;
+  margin-bottom: 2.29vw;
+  text-align: center;
+}
+.popular-items .cards .firstcard img {
+  width: 90vw;
+  height: 50vw;
+}
+}
+@media screen and (max-width:576px) 
+{
+  .popular-items .firstcard{
+    display: none;
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.39vw;
+    flex-direction: column;
+    align-items: center;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2vw
+}
+.checkmark {
+  margin-left: 0vw;
+  width: 100%;
+}
+.card {
+  margin-left: 0.3vw;
+  width: 100%;
+  padding-top: 0vw;
+}
+.sprout {
+  margin-left: 0vw;
+  width: 100%;
+  padding-top: 0vw;
+}
+.delivery {
+  margin-left: 0vw;
+  width: 100%;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.info p {
+  font-family: "Satoshi";
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 1.32vw;
+  text-align: left;
+  color: white;
+}
+
+.right h3 {
+  font-family: "Clash Display";
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 1.4vw;
+  text-align: left;
+  color: #2A254B;
+}
+text p {
+  font-family: "Satoshi";
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 1.67vw;
+  text-align: left;
+  color: #2A254B;
+  padding-top: 0.56vw;
+}
+.benefits-text p {
+  font-family: "Satoshi";
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 1.67vw;
+  text-align: center;
+  color: #2A254B;
+  width: 32.64vw;
+}
+.difference-items h3 {
+  font-family: "Clash Display";
+  font-size: 2.22vw;
+  font-weight: 400;
+  line-height: 2.33vw;
+  color: #2A254B;
+  margin-top: 4.17vw;
+  margin-bottom: 3.54vw;
+  text-align: center;
+  margin-right: 1.39vw;
+}
+.popular-items h3 {
+  font-family: "Clash Display";
+  font-size: 2.22vw;
+  font-weight: 400;
+  line-height: 2.73vw;
+  color: #2A254B;
+  margin-bottom: 2.29vw;
+  text-align: center;
+}
+.info p {
+  font-family: "Satoshi";
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 1.8vw;
+  text-align: left;
+  color: white;
+}
+.collection-items {
+  display: flex;
+  flex-direction: row;
+  margin-top: 2vw;
+  justify-content: center;
+  margin-bottom: 4.17vw;
+}
+.header-list li {
+  list-style: none;
+  color: #726E8D;
+  font-family: "Satoshi";
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 1.5vw;
+  text-align: left;
+}
+.logo h4 {
+  font-size: 2.2vw;
+  font-weight: 400;
+  line-height: 2.04vw;
+  text-align: center;
+  padding-top: 1.46vw;
+  color: #22202E;
+  font-family: "Clash Display";
+  padding-left: 0vw;
+}
+.text p {
+  font-family: "Satoshi";
+  font-size: 1.5vw;
+  font-weight: 400;
+  line-height: 1.67vw;
+  text-align: left;
+  color: #2A254B;
+  padding-top: 0.56vw;
+}
+h4 {
+  font-family: "Clash Display";
+  font-size: 1.7vw;
+  font-weight: 400;
+  line-height: 1.94vw;
+  text-align: left;
+  color: #2A254B;
+}
+#about p {
+  padding-top: 0.56vw;
+  font-size: 1.5vw;
+}
+.ceramics-items button {
+  background-color: rgba(249, 249, 249, 0.15);
+  color: #2A254B;
+  margin-top: 2.57vw;
+  margin-bottom: 3.89vw;
+  font-size: 1.5vw;
+}
+.popular-items button {
+  font-size: 1.5vw;
+}
+.studio-item button {
+  font-size: 1.5vw;
+
+}
+.benefits .benefits-text p {
+  font-family: "Satoshi";
+  font-size: 1.5vw;
+  font-weight: 400;
+  line-height: 1.67vw;
+  text-align: center;
+  color: #2A254B;
+  width: 32.64vw;
+}
+.studio-item .left p {
+  font-family: "Satoshi";
+  font-size: 1.5vw;
+  font-weight: 400;
+  line-height: 2vw;
+  text-align: left;
+  color: #505977;
+}
+.studio-item img {
+  width: 50vw;
+  height: 49vw;
+}
+footer h4 {
+  font-family: "Clash Display";
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 1.37vw;
+  text-align: left;
+  color: white;
+  padding-bottom: 0.83vw;
+}
+footer li {
+  font-family: "Satoshi";
+  font-size: 1.2vw;
+  font-weight: 400;
+  line-height: 1.32vw;
+  text-align: left;
+  list-style: none;
+  color: white;
+  padding-bottom: 0.83vw;
+}
+.icons img:nth-of-type(1) {
+  width: 2vw;
+  height: 1.25vw;
+}
+
+.footer-first {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #4E4D93;
+}
+nav {
+  display: flex;
+  padding-top: 3.81vw;
+  padding-left: 0.14vw;
+  justify-content: center;
+}
+.footer-form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0vw;
+  padding-top: 4.03vw;
+  align-items: center;
+  padding-bottom: 5vw;
+}
+}
+@media screen and (max-width:320px) 
+{
+  .header-list{
+    display: none;
+  }
+  .collection-items img{
+    display: none;
+  }
+  .info {
+    width: 100%;
+    height: 60vw;
+    background-color: #2A254B;
+}
+.logo .buy_user{
+  display: none;
+}
+.logo .search {
+  display: none;
+  content: url(../../ICONS/menu.svg);
+  display: inline;
+  width: 3vw;
+  height: 3vw;
+}
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 8vw;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.logo h4 {
+  font-size: 3vw;
+  font-weight: 400;
+  line-height: 2.04vw;
+  text-align: center;
+  padding-top: 3vw;
+  color: #22202E;
+  font-family: "Clash Display";
+  padding-left: 0vw;
+}
+button {
+  width: 25vw;
+  height: 8vw;
+  font-family: "Satoshi";
+  font-size: 3vw;
+  font-weight: 400;
+  line-height: 1.67vw;
+  color: white;
+  background-color: rgba(249, 249, 249, 0.15);
+  border: none;
+  margin-top: 2.84vw;
+}
+.features h2 {
+  display: none;
+}
+.info {
+  width: 100%;
+  height: 60vw;
+  background-color: #2A254B;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.info p {
+  font-family: "Satoshi";
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 5vw;
+  text-align: left;
+  color: white;
+}
+button {
+  width: 25vw;
+  height: 8vw;
+  font-family: "Satoshi";
+  font-size: 3vw;
+  font-weight: 400;
+  line-height: 1.67vw;
+  color: white;
+  background-color: rgba(249, 249, 249, 0.15);
+  border: none;
+  margin-top: 4.5vw;
+  margin-bottom: 6.5vw;
+}
+.text p {
+  font-family: "Satoshi";
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 7vw;
+  text-align: left;
+  color: #2A254B;
+  padding-top: 0.56vw;
+}
+h4 {
+  font-family: "Clash Display";
+  font-size: 4.5vw;
+  font-weight: 400;
+  line-height: 1.94vw;
+  text-align: left;
+  color: #2A254B;
+}
+.difference-items h3 {
+  font-family: "Clash Display";
+  font-size: 5vw;
+  font-weight: 400;
+  line-height: 5vw;
+  color: #2A254B;
+  margin-top: 4.17vw;
+  margin-bottom: 3.54vw;
+  text-align: center;
+  margin-right: 1.39vw;
+}
+.text img {
+  width: 5vw;
+  height: 5vw;
+}
+.text {
+  gap: 10vw;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.ceramics-items h3 {
+  font-family: "Clash Display";
+  font-size: 5vw;
+  font-weight: 400;
+  line-height: 2.73vw;
+  color: #2A254B;
+  margin-bottom: 5vw;
+  text-align: center;
+}
+#about p {
+  padding-top: 4vw;
+  font-size: 3vw;
+}
+.popular-items button {
+  font-size: 3vw;
+}
+.fphoto {
+  width: 100%;
+  height: 55vw;
+}
+.seccard img {
+  width: 100%;
+  height: 60vw;
+}
+.thirdcard img {
+  width: 100%;
+  height: 60vw;
+}
+.fourthcard img {
+  width: 100%;
+  height: 60vw;
+}
+.cards {
+  display: flex
+;
+  flex-wrap: wrap;
+  gap: 8vw;
+  flex-direction: column;
+  align-items: center;
+}
+.benefits {
+  background-color: #ffffff;
+  height: 100vw;
+  display: flex
+;
+  justify-content: center;
+  align-items: center;
+}
+.benefits h1 {
+  font-family: "Clash Display";
+  font-size: 6vw;
+  font-weight: 400;
+  line-height: 6vw;
+  text-align: center;
+  color: #2A254B;
+}
+.benefits .benefits-text p{
+  display: none;
+}
+.benefits .field-benefits {
+ display: none;
+}
+.benefits .button-benefits {
+  width: 50vw;
+  height: 15vw;
+  background-color: #2A254B;
+  color: white;
+  font-family: "Satoshi";
+  font-size: 6vw;
+  font-weight: 400;
+  line-height: 1.67vw;
+  text-align: center;
+  border: none;
+  margin-top: 5vw;
+}
+.studio-item img{
+  display: none;
+}
+.studio-item .left h3{
+  display: none;
+}
+.studio-item .left p {
+  font-family: "Satoshi";
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 5vw;
+  text-align: center;
+  color: #505977;
+  padding-bottom: 10vw;
+}
+.studio-item .left button{
+  display: none;
+}
+
+footer .footer-form {
+  display: none;
+  }
+  footer .footer-first {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #4E4D93;
+    justify-content: center;
+  }
+  footer li {
+    font-family: "Satoshi";
+    font-size: 2.5vw;
+    font-weight: 400;
+    line-height: 5vw;
+    text-align: left;
+    list-style: none;
+    color: white;
+    padding-bottom: 0.83vw;
+  }
+  footer h4 {
+    font-family: "Clash Display";
+    font-size: 3vw;
+    font-weight: 400;
+    line-height: 1.37vw;
+    text-align: left;
+    color: white;
+    padding-bottom: 0.83vw;
+  }
+  footer li {
+    font-family: "Satoshi";
+    font-size: 2.5vw;
+    font-weight: 400;
+    line-height: 5vw;
+    text-align: left;
+    list-style: none;
+    color: white;
+    padding-bottom: 0.83vw;
+  }
+  footer .footer-last p {
+    font-family: "Satoshi";
+    font-size: 2vw;
+    font-weight: 400;
+    line-height: 1.32vw;
+    text-align: left;
+    color: white;
+  }
+  .footer-last {
+    display: flex
+  ;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+  }
+  .icons{
+    display: none;
+  }
+}

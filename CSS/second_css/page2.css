@@ -1,0 +1,1842 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Satoshi";
+  src: url("../../FONTS/font/Satoshi-Regular.ttf");
+}
+@font-face {
+  font-family: "Clash Display";
+  src: url("../../FONTS/ClashDisplay_Complete/ClashDisplay_Complete/Fonts/TTF/ClashDisplay-Variable.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.delivery-section {
+  background-color: #2A254B;
+  display: flex;
+  flex-direction: row;
+}
+.delivery-info{
+  display: flex;
+  flex-direction: row;
+
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 516px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  gap:485px;
+}
+.info p {
+  font-family: "Satoshi";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: white;
+}
+ 
+.delivery-img {
+  padding-right: 8px;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.52px;
+  text-align: left;
+  color: #22202E;
+  font-family: "Clash Display";
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.header-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-top: 5px;
+  padding-left: 152px;
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  gap: 44px;
+}
+.header-list li {
+  color: #726E8D;
+}
+
+a {
+  text-decoration: none;
+}
+.header-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  padding-left: 310px;
+  padding-top: 7px;
+}
+.header-icons img {
+  width: 13.52px;
+  height: 13.52px;
+}
+
+.tovar-items {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  font-family: "Clash Display";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 44.28px;
+  text-align: left;
+  color: #2A254B;
+}
+
+.price {
+  font-family: "Satoshi";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.4px;
+  text-align: left;
+  color: #12131A;
+}
+
+.right h3 {
+  font-family: "Clash Display";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.68px;
+  text-align: left;
+  color: #2A254B;
+}
+
+.description {
+  padding-top: 54px;
+  padding-left: 102px;
+  padding-right: 119px;
+}
+.description ul, .description p {
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: #505977;
+}
+.description p {
+  padding-top: 16px;
+}
+.description ul {
+  padding-top: 23px;
+  padding-left: 25px;
+}
+
+table {
+  padding-top: 15px;
+  border-spacing: 58px 12px;
+  margin-left: -58px;
+}
+table th {
+  font-family: "Clash Display";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17.22px;
+  text-align: left;
+  color: #2A254B;
+}
+table td {
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: #505977;
+}
+
+.button {
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: #CAC6DA;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+
+.counter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #F9F9F9;
+  gap: 33px;
+  padding: 12px 16px;
+  margin-bottom: 25px;
+  margin-top: -15px;
+}
+
+.number {
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  color: #2A254B;
+}
+
+.add {
+  width: 143px;
+  height: 56px;
+  gap: 10px;
+  opacity: 1;
+  background-color: #2A254B;
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: white;
+  border: none;
+  margin-left: 171px;
+  padding-left: 32px;
+  margin-top: -15px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  padding-left: 102px;
+  padding-top: 91px;
+}
+
+.dimensions {
+  padding-left: 102px;
+  padding-top: 50px;
+}
+
+.amount {
+  display: flex;
+  flex-direction: row;
+  padding-top: 53px;
+  padding-left: 102px;
+}
+
+.full-counter {
+  display: flex;
+  flex-direction: row;
+  gap: 22px;
+}
+
+.ceramics-items {
+  margin-top: 78px;
+}
+.ceramics-items h3 {
+  font-family: "Clash Display";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 39.36px;
+  color: #2A254B;
+  margin-bottom: 33px;
+  text-align: left;
+}
+.ceramics-items p {
+  font-family: "Satoshi";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  color: #2A254B;
+}
+.ceramics-items button {
+  background-color: #F9F9F9;
+  color: #2A254B;
+  margin-top: 35px;
+  margin-bottom: 56px;
+}
+.ceramics-items h4 {
+  font-family: "Clash Display";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #2A254B;
+}
+
+.fphoto {
+  width: 305px;
+  height: 375px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-direction: row;
+}
+
+#about {
+  padding-top: 20px;
+}
+#about p {
+  padding-top: 8px;
+}
+
+.but-container {
+  display: flex;
+  justify-content: center;
+}
+a:hover{
+  text-shadow: #60b6a3 1px 0px 10px;
+}
+a:active{
+  color:#60b6a3 ;
+}
+
+.ceramics-items button {
+  background-color: rgba(249, 249, 249, 0.15);
+  color: #2A254B;
+  margin-top: 37px;
+  margin-bottom: 56px;
+  width: 170px;
+  height: 56px;
+  border: none;
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.difference-items {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 86px;
+}
+.difference-items h3 {
+  font-family: "Clash Display";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 33.6px;
+  color: #2A254B;
+  margin-top: 60px;
+  margin-bottom: 51px;
+  text-align: center;
+  margin-right: 20px;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+}
+.text p {
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #2A254B;
+  padding-top: 8px;
+}
+.text img {
+  padding-bottom: 16px;
+}
+
+.delivery {
+  margin-left: 5px;
+  width: 270px;
+}
+
+.checkmark {
+  margin-left: 58px;
+  width: 266px;
+}
+
+.card {
+  margin-left: 58px;
+  width: 235px;
+}
+
+.sprout {
+  margin-left: 91px;
+  width: 265px;
+}
+
+.difference h4 {
+  font-family: "Clash Display";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #2A254B;
+  margin-top: -5px;
+}
+
+.benefits {
+  background-color: #F9F9F9;
+  height: 481px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.benefits h4 {
+  font-family: "Clash Display";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 50.4px;
+  text-align: center;
+  color: #2A254B;
+}
+
+.benefits-item {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 170px);
+  margin-left: 94px;
+  gap: 71px;
+  margin-top: -10px;
+}
+
+.benefits-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 68px;
+}
+.benefits-text p {
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: #2A254B;
+  width: 470px;
+}
+
+.form {
+  margin-bottom: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.form ::-moz-placeholder {
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  background-color: #F9F9F9;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 32px;
+}
+.form ::placeholder {
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  background-color: #F9F9F9;
+  padding-top: 17px;
+  padding-bottom: 17px;
+  padding-left: 32px;
+}
+
+.field-benefits {
+  width: 354px;
+  height: 56px;
+  border: none;
+}
+
+.button-benefits {
+  width: 118px;
+  height: 56px;
+  background-color: #2A254B;
+  color: white;
+  font-family: "Satoshi";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  border: none;
+}
+
+footer {
+  background-color: #2A254B;
+}
+footer a {
+  font-family: "Satoshi";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: white;
+}
+footer li {
+  list-style: none;
+}
+footer h4 {
+  font-family: "Clash Display";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.68px;
+  text-align: left;
+  color: white;
+}
+
+.start {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #4E4D93;
+  padding-bottom: 36px;
+}
+
+.location {
+  margin-top: 55px;
+}
+.location h1 {
+  color: white;
+  font-family: "Clash Display";
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 50.4px;
+  text-align: left;
+}
+.location p {
+  font-family: "Satoshi";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  color: white;
+}
+
+.tips {
+  padding-top: 15px;
+}
+.tips p:nth-of-type(2), .tips p:nth-of-type(3), .tips p:nth-of-type(4) {
+  padding-top: 12px;
+}
+
+.second h4 {
+  font-family: "Clash Display";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.68px;
+  text-align: left;
+  color: white;
+  margin-top: 53px;
+  margin-left: 65px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 68px;
+  gap: 24px;
+  margin-top: 22px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 167px;
+  margin-top: 53px;
+}
+
+.categories .list, .company .list, .menu .list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-top: 12px;
+}
+
+.categories {
+  padding-left: 109px;
+}
+
+.company {
+  padding-left: 135px;
+}
+
+.footer-last p {
+  color: white;
+  font-family: "Satoshi";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  padding-top: 16px;
+  padding-bottom: 20px;
+}/*# sourceMappingURL=page2.css.map */
+.icons img:nth-of-type(5)
+{
+  width: 1.7vw !important;
+  height: 1.25vw!important;
+}
+.ceramics-items button{
+  background-color: rgba(249, 249, 249, 0.15);  
+  color: #2A254B;
+}
+button:hover{
+  border: 2px solid #4E4D93;
+}
+.footer-button:hover{
+  border: 2px solid #4E4D93;
+}
+.button-benefits:hover{
+  border: 2px solid #4E4D93;
+}
+button:active{
+  background-color:  #4E4D93;
+}
+.footer-button:active{
+  background-color:  #4E4D93;
+}
+.button-benefits:active{
+ background-color:  #4E4D93;
+}
+
+.firstcard,.seccard,.thirdcard,.fourthcard {
+  transition: 1s; 
+ }
+ .firstcard:hover,.seccard:hover,.thirdcard:hover,.fourthcard:hover {
+  transform: scale(1.2); 
+  box-shadow: #2A254B  1px 0px 10px;
+ }
+
+@media screen and (max-width:1439px) 
+{
+  .container {
+    max-width: 90vw;
+    margin: 0 auto;
+  }
+
+  .delivery-section {
+    background-color: #2A254B;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .delivery-info {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: row;
+    margin-left: 35.83vw;
+    margin-top: 0.76vw;
+    margin-bottom: 0.76vw;
+    gap: 33.68vw;
+  }
+  
+  .info p {
+    font-family: "Satoshi";
+    font-size: 0.97vw;
+    font-weight: 400;
+    line-height: 1.32vw;
+    text-align: left;
+    color: white;
+  }
+  
+  .delivery-img {
+    padding-right: 0.56vw;
+    width: 1.5vw;
+    height: 1.3125vw;
+  }
+  img.close{
+    width: 0.83vw;
+    height: 1.3125vw;
+  }
+  h4 {
+    font-size: 1.67vw;
+    font-weight: 400;
+    line-height: 2.05vw;
+    text-align: left;
+    color: #22202E;
+    font-family: "Clash Display";
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.7vw;
+    margin-bottom:  1.7vw;
+  }
+  
+  .header-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 0.35vw;
+    padding-left: 10.55vw;
+    font-family: "Satoshi";
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+    text-align: left;
+    gap: 3vw;
+  }
+  .header-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 1.4vw;
+    padding-left: 21.52vw;
+    padding-top: 0.5vw;
+  }
+  .header-icons img {
+    width: 0.94vw;
+    height: 0.94vw;
+  }
+  
+  h1 {
+    font-family: "Clash Display";
+    font-size: 2.5vw;
+    font-weight: 400;
+    line-height: 3.075vw;
+    text-align: left;
+    color: #2A254B;
+  }
+  .price {
+    font-family: "Satoshi";
+    font-size: 1.7vw;
+    font-weight: 400;
+    line-height: 2.25vw;
+    text-align: left;
+    color: #12131A;
+  }
+  
+  .right h3 {
+    font-family: "Clash Display";
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 1.4vw;
+    text-align: left;
+    color: #2A254B;
+  }
+  
+  .description {
+    padding-top: 3.75vw; 
+    padding-left: 7.08vw;
+    padding-right: 8.26vw; 
+  }
+  
+  .description ul, .description p {
+    font-family: "Satoshi";
+    font-size: 1.11vw; 
+    font-weight: 400;
+    line-height: 1.5vw; 
+    text-align: left;
+    color: #505977;
+  }
+  
+  .description p {
+    padding-top: 1.11vw;
+  }
+  .description ul {
+    padding-top: 1.60vw;
+    padding-left: 1.74vw;
+  }
+  
+  table {
+    padding-top: 1.04vw;
+    border-spacing: 4.03vw 0.83vw;
+    margin-left: -4.03vw;
+    margin-right: 4vw;
+  }
+  
+  table th {
+    font-family: "Clash Display";
+    font-size: 0.97vw;
+    font-weight: 400;
+    line-height: 1.19vw;
+    text-align: left;
+    color: #2A254B;
+  }
+  
+  table td {
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.50vw;
+    text-align: left;
+    color: #505977;
+  }
+  .left img{
+    width:50vw ;
+    height: 52.5vw;
+  }
+  .button {
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.50vw;
+    text-align: left;
+    color: #CAC6DA;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F9F9F9;
+    gap: 2.29vw;
+    padding: 0.83vw 1.11vw;
+    margin-bottom: 1.74vw;
+    margin-top: -1.04vw;
+  }
+  
+  .number {
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.50vw;
+    text-align: left;
+    color: #2A254B;
+  }
+  .add {
+    width: 9.93vw;
+    height: 3.89vw;
+    gap: 0.69vw;
+    opacity: 1;
+    background-color: #2A254B;
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.67vw;
+    text-align: left;
+    color: white;
+    border: none;
+    margin-left: 11.88vw;
+    padding-left: 2.22vw;
+    margin-top: -1.04vw;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.90vw;
+    padding-left: 7.08vw;
+    padding-top: 6.32vw;
+  }
+  
+  .dimensions {
+    padding-left: 7.08vw;
+    padding-top: 3.47vw;
+  }
+  .amount {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3.68vw;
+    padding-left: 7.08vw;
+  }
+  
+  .full-counter {
+    display: flex;
+    flex-direction: row;
+    gap: 1.53vw;
+  }
+  
+  .ceramics-items {
+    margin-top: 5.42vw;
+  }
+  
+  .ceramics-items h3 {
+    font-family: "Clash Display";
+    font-size: 2.22vw;
+    font-weight: 400;
+    line-height: 2.73vw;
+    color: #2A254B;
+    margin-bottom: 2.29vw;
+    text-align: left;
+  }
+  
+  .ceramics-items p {
+    font-family: "Satoshi";
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.88vw;
+    text-align: left;
+    color: #2A254B;
+  }
+  .amount {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3.68vw;
+    padding-left: 7.08vw;
+  }
+  
+  .full-counter {
+    display: flex;
+    flex-direction: row;
+    gap: 1.53vw;
+  }
+  
+  .ceramics-items {
+    margin-top: 5.42vw;
+  }
+  
+  .ceramics-items h3 {
+    font-family: "Clash Display";
+    font-size: 2.22vw;
+    font-weight: 400;
+    line-height: 2.73vw;
+    color: #2A254B;
+    margin-bottom: 2.29vw;
+    text-align: left;
+  }
+  
+  .ceramics-items p {
+    font-family: "Satoshi";
+    font-size: 1.25vw;
+    font-weight: 400;
+    line-height: 1.88vw;
+    text-align: left;
+    color: #2A254B;
+  }
+  .ceramics-items button {
+    background-color: #F9F9F9;
+    color: #2A254B;
+    margin-top: 2.43vw;
+    margin-bottom: 3.89vw;
+  }
+  
+  .ceramics-items h4 {
+    font-family: "Clash Display";
+    font-size: 1.39vw;
+    font-weight: 400;
+    line-height: 1.94vw;
+    text-align: left;
+    color: #2A254B;
+  }
+  
+  .fphoto {
+    width: 21.18vw;
+    height: 26.04vw;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 1.39vw;
+    flex-direction: row;
+  }
+  
+  #about {
+    padding-top: 1.39vw;
+  }
+  
+  #about p {
+    padding-top: 0.56vw;
+  }
+  .view {
+    width: 11.81vw;
+    height: 3.89vw;
+    padding: 1.11vw 2.22vw;
+    gap: 0.69vw;
+    opacity: 0;
+    background-color: #F9F9F9;
+    color: #2A254B;
+    border: none;
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.67vw;
+    text-align: left;
+  }
+  
+  .difference-items {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5.97vw;
+  }
+  
+  .difference-items h3 {
+    font-family: "Clash Display";
+    font-size: 1.67vw;
+    font-weight: 400;
+    line-height: 2.33vw;
+    color: #2A254B;
+    margin-top: 4.17vw;
+    margin-bottom: 3.54vw;
+    text-align: center;
+    margin-right: 1.39vw;
+  }
+  .text p {
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.67vw;
+    text-align: left;
+    color: #2A254B;
+    padding-top: 0.56vw;
+  }
+  
+  .text img {
+    padding-bottom: 1.11vw;
+  }
+  
+  .delivery {
+    margin-left: 0.35vw;
+    width: 18.75vw;
+  }
+  
+  .checkmark {
+    margin-left: 4.03vw;
+    width: 18.54vw;
+  }
+  
+  .card {
+    margin-left: 4.03vw;
+    width: 16.32vw;
+  }
+  
+  .sprout {
+    margin-left: 6.32vw;
+    width: 18.51vw;
+  }
+  .difference h4 {
+    font-family: "Clash Display";
+    font-size: 1.39vw;
+    font-weight: 400;
+    line-height: 1.94vw;
+    text-align: left;
+    color: #2A254B;
+    margin-top: -0.35vw;
+  }
+  
+  .benefits {
+    background-color: #F9F9F9;
+    height: 33.44vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .benefits h4 {
+    font-family: "Clash Display";
+    font-size: 2.50vw;
+    font-weight: 400;
+    line-height: 3.50vw;
+    text-align: center;
+    color: #2A254B;
+  }
+  .benefits-item {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 11.81vw);
+    margin-left: 6.53vw;
+    gap: 4.93vw;
+    margin-top: -0.69vw;
+  }
+  
+  .benefits-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.11vw;
+    margin-top: 4.72vw;
+  }
+  
+  .benefits-text p {
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.67vw;
+    text-align: center;
+    color: #2A254B;
+    width: 32.64vw;
+  }
+  
+  .form {
+    margin-bottom: 3.75vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  .form ::placeholder {
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.50vw;
+    text-align: left;
+    background-color: #F9F9F9;
+    padding-top: 1.18vw;
+    padding-bottom: 1.18vw;
+    padding-left: 2.22vw;
+  }
+  
+  .field-benefits {
+    width: 24.58vw;
+    height: 3.89vw;
+    border: none;
+  }
+  
+  .button-benefits {
+    width: 8.19vw;
+    height: 3.89vw;
+    background-color: #2A254B;
+    color: white;
+    font-family: "Satoshi";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.67vw;
+    text-align: center;
+    border: none;
+  }
+  footer a {
+    font-family: "Satoshi";
+    font-size: 0.97vw;
+    font-weight: 400;
+    line-height: 1.32vw;
+    text-align: left;
+    color: white;
+  }
+  
+  footer li {
+    list-style: none;
+  }
+  
+  footer h4 {
+    font-family: "Clash Display";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.37vw;
+    text-align: left;
+    color: white;
+  }
+  
+  .start {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.07vw solid #4E4D93;
+    padding-bottom: 2.50vw;
+  }
+  
+  .location {
+    margin-top: 3.81vw;
+  }
+  
+  .location h1 {
+    color: white;
+    font-family: "Clash Display";
+    font-size: 2.50vw;
+    font-weight: 400;
+    line-height: 3.50vw;
+    text-align: left;
+  }
+  
+  .location p {
+    font-family: "Satoshi";
+    font-size: 0.97vw;
+    font-weight: 400;
+    line-height: 1.32vw;
+    text-align: left;
+    color: white;
+  }
+  .tips {
+    padding-top: 1.04vw;
+  }
+  
+  .tips p:nth-of-type(2), .tips p:nth-of-type(3), .tips p:nth-of-type(4) {
+    padding-top: 0.83vw;
+  }
+  
+  .second h4 {
+    font-family: "Clash Display";
+    font-size: 1.11vw;
+    font-weight: 400;
+    line-height: 1.37vw;
+    text-align: left;
+    color: white;
+    margin-top: 3.68vw;
+    margin-left: 4.52vw;
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: row;
+    margin-left: 4.72vw;
+    gap: 1.67vw;
+    margin-top: 1.53vw;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 11.57vw;
+    margin-top: 3.68vw;
+  }
+  
+  .categories .list, .company .list, .menu .list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.83vw;
+    padding-top: 0.83vw;
+  }
+  
+  .categories {
+    padding-left: 7.57vw;
+  }
+  
+  .company {
+    padding-left: 9.38vw;
+  }
+  
+  .footer-last p {
+    color: white;
+    font-family: "Satoshi";
+    font-size: 0.97vw;
+    font-weight: 400;
+    line-height: 1.32vw;
+    text-align: left;
+    padding-top: 1.11vw;
+    padding-bottom: 1.39vw;
+  }
+  .seccard img{
+    width: 21vw;
+     height: 26vw;
+  }
+  .thirdcard img{
+    width: 21vw;
+     height: 26vw;
+  }
+  .fourthcard img{
+    width: 21vw;
+     height: 26vw;
+  }
+  .text img{
+    width: 1.7vw;
+    height: 2.5vw;
+  }
+  .icons img{
+    width: 1.7vw;
+    height: 2.5vw;
+  }
+  .icons img:nth-of-type(1),  .icons img:nth-of-type(2),.icons img:nth-of-type(3),.icons img:nth-of-type(5)
+  {
+    width: 1.7vw;
+    height: 1.25vw; 
+  }
+  .icons img:nth-of-type(4)
+  {
+    width: 1.6vw;
+    height: 1.4vw; 
+  }
+  .icons img:nth-of-type(6)
+  {
+    width: 1.875vw;
+    height: 1.5vw; 
+  }
+.benefits-plus{
+  width:0.97vw ;
+  height: 1.67vw;
+}
+}
+
+@media screen and (max-width:768px) 
+{
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.39vw;
+    flex-direction:row;
+    justify-content: center;
+}
+.fphoto {
+  width: 30vw;
+  height: 35vw;
+}
+.seccard img{
+  width: 30vw;
+  height: 35vw;
+}
+.thirdcard img{
+  width: 30vw;
+  height: 35vw;
+}
+.fourthcard img{
+  width: 30vw;
+  height: 35vw;
+}
+.ceramics-items h3 {
+  font-family: "Clash Display";
+  font-size: 2.22vw;
+  font-weight: 400;
+  line-height: 2.73vw;
+  color: #2A254B;
+  margin-bottom: 2.29vw;
+  text-align: center;
+}
+.difference-items {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5.97vw;
+  width: 50%;
+}
+.card {
+  margin-left: 0.35vw;
+  width: 16.32vw;
+  padding-top:5vw;
+}
+.sprout {
+  margin-left: 14.5vw;
+  width: 18.51vw;
+  padding-top: 5vw;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.checkmark {
+  margin-left: 4.03vw;
+  width: 18.54vw;
+}
+.checkmark {
+  margin-left: 12vw;
+  width: 18.54vw;
+}
+
+}
+@media screen and (max-width:576px) 
+{
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.39vw;
+    flex-direction: column;
+    align-items: center;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2vw
+}
+.checkmark {
+  margin-left: 0vw;
+  width: 100%;
+}
+.card {
+  margin-left: 0.3vw;
+  width: 100%;
+  padding-top: 0vw;
+}
+.sprout {
+  margin-left: 0vw;
+  width: 100%;
+  padding-top: 0vw;
+}
+.delivery {
+  margin-left: 0vw;
+  width: 100%;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.info p {
+  font-family: "Satoshi";
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 1.32vw;
+  text-align: left;
+  color: white;
+}
+img.close {
+  width: 0.83vw;
+  height: 1.3125vw;
+  margin-right: 4vw;
+}
+.header-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-top: 0.35vw;
+  padding-left: 10.55vw;
+  font-family: "Satoshi";
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 1.5vw;
+  text-align: left;
+  gap: 3vw;
+}
+
+.right h3 {
+  font-family: "Clash Display";
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 1.4vw;
+  text-align: left;
+  color: #2A254B;
+}
+.description ul, .description p {
+  font-family: "Satoshi";
+  font-size: 1.4vw; 
+  font-weight: 400;
+  line-height: 1.5vw; 
+  text-align: left;
+  color: #505977;
+}
+table th {
+  font-family: "Clash Display";
+  font-size: 1.3vw;
+  font-weight: 400;
+  line-height: 1.19vw;
+  text-align: left;
+  color: #2A254B;
+}
+
+table td {
+  font-family: "Satoshi";
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 1.50vw;
+  text-align: left;
+  color: #505977;
+}
+text p {
+  font-family: "Satoshi";
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 1.67vw;
+  text-align: left;
+  color: #2A254B;
+  padding-top: 0.56vw;
+}
+.benefits-text p {
+  font-family: "Satoshi";
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 1.67vw;
+  text-align: center;
+  color: #2A254B;
+  width: 32.64vw;
+}
+.second{
+  display: none;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 16vw;
+  margin-top: 3.68vw;
+  justify-content: center;
+}
+.categories .list, .company .list, .menu .list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2vw;
+  padding-top: 0.83vw;
+}
+footer a {
+  font-family: "Satoshi";
+  font-size: 1.4vw;
+  font-weight: 400;
+  line-height: 1.32vw;
+  text-align: left;
+  color: white;
+}
+footer h4 {
+  font-family: "Clash Display";
+  font-size: 1.6vw;
+  font-weight: 400;
+  line-height: 1.37vw;
+  text-align: left;
+  color: white;
+}
+.difference-items h3 {
+  font-family: "Clash Display";
+  font-size: 2.22vw;
+  font-weight: 400;
+  line-height: 2.33vw;
+  color: #2A254B;
+  margin-top: 4.17vw;
+  margin-bottom: 3.54vw;
+  text-align: center;
+  margin-right: 1.39vw;
+}
+.header-icons img {
+  width: 1.2vw;
+  height: 1.2vw;
+}
+}
+@media screen and (max-width:320px) {
+  .delivery-section {
+    background-color: #2A254B;
+    display: flex;
+    flex-direction: row;
+    height: 20vw;
+}
+.info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2vw;
+  margin-top: 4vw;
+  margin-bottom: 0.76vw;
+  gap: 3vw;
+}
+.info p {
+  font-family: "Satoshi";
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 3.5vw;
+  text-align: left;
+  color: white;
+}
+img.close {
+  width: 3vw;
+  height: 3vw;
+  margin-right: 4vw;
+}
+.nav h4 {
+  font-size: 5vw;
+  font-weight: 400;
+  line-height: 2.05vw;
+  text-align: left;
+  color: #22202E;
+  font-family: "Clash Display";
+  padding-top: 2vw;
+}
+.header-list{
+  display: none;
+}
+.header-icons{
+  display: none;
+  content: url(../../ICONS/menu.svg);
+  display: inline-block;
+  padding-left: 73.8vw;
+}
+.tovar-items {
+  display: flex;
+  flex-direction: column;
+}
+.left img {
+  width: 100vw;
+  height: 90vw;
+}
+h1 {
+  font-family: "Clash Display";
+  font-size: 7vw;
+  font-weight: 400;
+  line-height: 3.075vw;
+  text-align: left;
+  color: #2A254B;
+}
+.price {
+  font-family: "Satoshi";
+  font-size: 5vw;
+  font-weight: 400;
+  line-height: 10vw;
+  text-align: left;
+  color: #12131A;
+}
+.right h3 {
+  font-family: "Clash Display";
+  font-size: 4.5vw;
+  font-weight: 400;
+  line-height: 3vw;
+  text-align: left;
+  color: #2A254B;
+}
+.description ul, .description p {
+  font-family: "Satoshi";
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 9vw;
+  text-align: left;
+  color: #505977;
+}
+table th {
+  font-family: "Clash Display";
+  font-size: 3.8vw;
+  font-weight: 400;
+  line-height: 9vw;
+  text-align: left;
+  color: #2A254B;
+}
+table td {
+  font-family: "Satoshi";
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 1.50vw;
+  text-align: left;
+  color: #505977;
+}
+.counter {
+  display: flex
+;
+  flex-direction: row;
+  align-items: center;
+  background-color: #F9F9F9;
+  gap: 2.29vw;
+  padding: 0.83vw 7vw;
+  margin-bottom: 1.74vw;
+  margin-top: -1.04vw;
+  width: 30vw;
+  height: 10vw;
+}
+.amount {
+  display: flex
+;
+  flex-direction: column;
+  padding-top: 3.68vw;
+  padding-left: 7.08vw;
+}
+.full-counter {
+  display: flex
+;
+  flex-direction: column;
+  gap: 6vw;
+}
+.button {
+  font-family: "Satoshi";
+  font-size: 9vw;
+  font-weight: 400;
+  line-height: 1.50vw;
+  text-align: left;
+  color: #CAC6DA;
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+}
+.number {
+  font-family: "Satoshi";
+  font-size: 8vw;
+  font-weight: 400;
+  line-height: 1.50vw;
+  text-align: left;
+  color: #2A254B;
+}
+.add {
+  width: 30vw;
+  height: 10vw;
+  gap: 0.69vw;
+  opacity: 1;
+  background-color: #2A254B;
+  font-family: "Satoshi";
+  font-size: 4.5vw;
+  font-weight: 400;
+  line-height: 1.67vw;
+  text-align: left;
+  color: white;
+  border: none;
+  margin-left: 0vw;
+  padding-left: 3.5vw;
+  margin-top: 5vw;
+}
+.fphoto {
+  width: 100%;
+  height: 100%;
+}
+.ceramics-items h3 {
+  font-family: "Clash Display";
+  font-size: 5vw;
+  font-weight: 400;
+  line-height: 2.73vw;
+  color: #2A254B;
+  margin-bottom: 4vw;
+  text-align: center;
+}
+.ceramics-items p {
+  font-family: "Satoshi";
+  font-size: 3.5vw;
+  font-weight: 400;
+  line-height: 8vw;
+  text-align: left;
+  color: #2A254B;
+}
+.seccard img {
+  width: 100%;
+  height: 100%;
+}
+.thirdcard img {
+  width: 100%;
+  height: 100%;
+}
+.fourthcard img {
+  width: 100%;
+  height: 100%;
+}
+.difference-items h3 {
+  font-family: "Clash Display";
+  font-size: 5vw;
+  font-weight: 400;
+  line-height: 5vw;
+  color: #2A254B;
+  margin-top: 4.17vw;
+  margin-bottom: 3.54vw;
+  text-align: center;
+  margin-right: 1.39vw;
+}
+.ceramics-items h4 {
+  font-family: "Clash Display";
+  font-size: 4.5vw;
+  font-weight: 400;
+  line-height: 1.94vw;
+  text-align: left;
+  color: #2A254B;
+}
+.text img {
+  width: 6vw;
+  height: 7vw;
+}
+.difference h4 {
+  font-family: "Clash Display";
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 1.94vw;
+  text-align: left;
+  color: #2A254B;
+  margin-top: -0.35vw;
+}
+.text p {
+  font-family: "Satoshi";
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 8vw;
+  text-align: left;
+  color: #2A254B;
+  padding-top: 0.56vw;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10vw;
+}
+.benefits {
+  background-color:white;
+  height: 33.44vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.benefits {
+  background-color: #F9F9F9;
+  height: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.benefits-item {
+  background-color: #F9F9F9;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 11.81vw);
+  margin-left: 6.53vw;
+  gap: 4.93vw;
+  margin-top: -0.69vw;
+}
+.benefits h1 {
+  font-family: "Clash Display";
+  font-size: 6vw;
+  font-weight: 400;
+  line-height: 5vw;
+  text-align: center;
+  color: #2A254B;
+}
+.benefits-text p {
+ display: none;
+}
+.field-benefits {
+display: none;
+}
+.button-benefits {
+  width: 50vw;
+  height: 8vw;
+  background-color: #2A254B;
+  color: white;
+  font-family: "Satoshi";
+  font-size: 4vw;
+  font-weight: 400;
+  line-height: 1.67vw;
+  text-align: center;
+  border: none;
+}
+.first{
+  display: none;
+}
+.categories .list, .company .list, .menu .list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 0.2vw;
+  padding-top: 0.83vw;
+}
+footer a {
+  font-family: "Satoshi";
+  font-size: 2.5vw;
+  font-weight: 400;
+  line-height: 1.32vw;
+  text-align: left;
+  color: white;
+}
+footer h4 {
+  font-family: "Clash Display";
+  font-size: 3vw;
+  font-weight: 400;
+  line-height: 1.37vw;
+  text-align: left;
+  color: white;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 3.68vw;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 12vw;
+  margin-top: 3.68vw;
+  justify-content: center;
+}
+.footer-last p {
+  color: white;
+  font-family: "Satoshi";
+  font-size: 2vw;
+  font-weight: 400;
+  line-height: 1.32vw;
+  text-align: center;
+  padding-top: 5vw;
+  padding-bottom: 4.5vw;
+}
+.delivery-img {
+ display: none;
+}
+
+}

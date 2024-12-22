@@ -1,0 +1,477 @@
+$primary-color: #2A254B;
+$white-color: white;
+$font-family-satoshi: 'Satoshi';
+$font-family-clash: 'Clash Display';
+$text-color: #726E8D;
+$background-color: #F9F9F9;
+$dark-gray: #22202E;
+$button-height: 56px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.delivery-section {
+  background-color: $primary-color;
+  display: flex;
+  flex-direction: row;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 516px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+
+  p {
+    font-family: $font-family-satoshi;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: $white-color;
+  }
+}
+
+.delivery-img {
+  padding-right: 8px;
+}
+
+.close {
+  padding-left: 485px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.header-list {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 955px;
+  font-family: $font-family-satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+  gap: 32px;
+
+  a {
+    text-decoration: none;
+    color: $text-color;
+
+    &:hover {
+      color: inherit;
+    }
+  }
+}
+
+.header-icons {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  padding-right: 51px;
+  padding-left: 47px;
+  padding-top: 5px;
+
+  img {
+    width: 16px;
+    height: 16px;
+  }
+}
+
+header h4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.52px;
+  text-align: left;
+  color: $dark-gray;
+  font-family: $font-family-clash;
+  padding-left: 28px;
+}
+
+.nav-list {
+  list-style: none;
+  background-color: $background-color;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 44px;
+  padding-top: 10px;
+  padding-bottom: 22px;
+  font-family: $font-family-satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.6px;
+  text-align: left;
+}
+.nav-list a{
+  text-decoration: none;
+  color:$text-color;
+}
+.message-item h1 {
+  font-family: $font-family-clash;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 50.4px;
+  text-align: center;
+  padding-top: 67px;
+  padding-bottom: 79px;
+}
+.studio-item {
+  background-color: $background-color;
+  display: flex;
+  flex-direction: row;
+}
+
+.left {
+  background-color: $white-color;
+  padding-left: 85px;
+  padding-right: 122px;
+  padding-top: 45px;
+
+  h3 {
+    font-family: $font-family-clash;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    text-align: left;
+    padding-top: 28px;
+    color: $primary-color;
+    width: 514px;
+  }
+
+  p {
+    font-family: $font-family-satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: $dark-gray;
+  }
+
+  button {
+    background-color: $background-color;
+    width: 150px;
+    color: $primary-color;
+    margin-top: 196px;
+    margin-bottom: 54px;
+    border: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-family: $font-family-satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    height: $button-height;
+  }
+}
+
+.fline {
+  padding-top: 27px;
+}
+
+.sline {
+  padding-top: 20px;
+}
+
+.fline2 {
+  padding-top: 25px;
+}
+.difference-items {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 86px;
+
+  h3 {
+    font-family: $font-family-clash;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33.6px;
+    color: $primary-color;
+    margin-top: 55px; 
+    margin-bottom: 51px; 
+    text-align: center;
+    margin-right: 20px;
+  }
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+
+  p {
+    font-family: $font-family-satoshi;
+    font-size: 16px; 
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: $primary-color;
+    padding-top: 8px;
+  }
+
+  img {
+    padding-bottom: 16px;
+  }
+}
+
+.delivery {
+  margin-left: 5px;
+  width: 270px;
+}
+
+.checkmark {
+  margin-left: 58px;
+  width: 266px;
+}
+
+.card {
+  margin-left: 58px;
+  width: 235px; 
+}
+
+.sprout {
+  margin-left: 91px;
+  width: 265px; 
+}
+
+.difference h4 {
+  font-family: $font-family-clash;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: $primary-color;
+  margin-top: -5px;
+}
+.benefits {
+  background: url("https://s3-alpha-sig.figma.com/img/27be/3038/bae4257d89397ead63485f276489b3fa?Expires=1734307200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=etmuG8rx3tuZ21TfV-kx5Xo5DfgRbiq-ajooCewZIKdMpH4rkP3S2XCgnVjjGslnpkPEsgwlkNX22MuIcwlolq64s5A4ZvP-J-CY7mD2zVnTwzvvwO2V6cNJmKt3dHIXfSqnu5JGsb7P7-7eVdhoXfb~85DfoVXN5hqwJyKvRjTfbIG7Ns7Ago2vkwGa7Ua9Lf5ZqOYLbskTlIRQ05dUIKmVxQPVIGaQc4ISOITmmEH1e-djsQI-6tX8hZ90Tyo4DqSjEt7HYjaBuUk~tDx7lMO~CLSvY-0Zj1Xmbh6j5PMkWCFOkA73eGXOF5mlLPYS~Dox5IU0oIsSRxQUmqbhjw__");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.benefits-item {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 170px);
+  margin-top: 97px;
+  margin-bottom: 86px;
+
+  h1 {
+    font-family: $font-family-clash;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 50.4px;
+    text-align: center;
+    color: $white-color;
+  }
+}
+
+.benefits-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  p {
+    font-family: $font-family-satoshi;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: $white-color;
+  }
+}
+
+.benefits-plus {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 36px;
+  padding-top: 30px;
+}
+
+.plus-1,
+.plus-2,
+.plus-3 {
+  display: flex;
+  flex-direction: row;
+  font-family: $font-family-satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  color: $white-color;
+  gap: 8px;
+}
+
+.field-benefits {
+  width: 354px;
+  height: $button-height;
+  border: none;
+}
+
+.button-benefits {
+  width: 118px;
+  height: $button-height;
+  background-color: $primary-color;
+  color: $white-color;
+  font-family: $font-family-satoshi;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  border: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+
+  ::placeholder {
+    font-family: $font-family-satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    background-color: $background-color;
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 32px;
+  }
+}
+footer {
+  background-color: $primary-color;
+
+  h4 {
+    font-family: $font-family-clash;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.68px;
+    text-align: left;
+    color: $white-color;
+    padding-bottom: 12px;
+  }
+
+  li {
+    font-family: $font-family-satoshi;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    list-style: none;
+    color: $white-color;
+    padding-bottom: 12px;
+  }
+
+  a {
+    color: $white-color;
+    color: inherit;
+  }
+
+  .footer-nav {
+    display: flex;
+    padding-top: 60px;
+    padding-left: 2px;
+  }
+
+  .menu {
+    padding-bottom: 65px;
+  }
+
+  .categories {
+    padding-left: 109px;
+  }
+
+  .company {
+    padding-left: 133px;
+  }
+
+  .footer-first {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #4E4D93;
+  }
+
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 109px;
+    padding-top: 58px;
+  }
+
+  .field-footer {
+    width: 509px;
+    height: $button-height;
+    background-color: rgba(255, 255, 255, 0.15); // Прозрачный белый
+    border: none;
+
+    &::placeholder {
+      color: $white-color;
+      font-family: $font-family-satoshi;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21.6px;
+      text-align: left;
+      padding-left: 32px;
+    }
+  }
+
+  .inputs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+
+    .footer-button {
+      width: 118px;
+      height: $button-height;
+      background-color: $white-color;
+      color: $primary-color;
+      font-family: $font-family-satoshi;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      border: none;
+    }
+  }
+
+  .footer-last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 20px;
+
+    p {
+      font-family: $font-family-satoshi;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18.9px;
+      text-align: left;
+      color: $white-color;
+    }
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+  }
+}

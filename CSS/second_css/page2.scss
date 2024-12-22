@@ -1,0 +1,621 @@
+@font-face {
+    font-family: 'Satoshi';
+    src: url('D:\Учеба\3 сем\Avion\FONTS\font\Satoshi-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Clash Display';
+    src: url('d:\Учеба\3 сем\Avion\FONTS\ClashDisplay_Complete\ClashDisplay_Complete\Fonts\TTF\ClashDisplay-Variable.ttf');
+}
+$light-gray: #F9F9F9; 
+$dark-gray: #505977; 
+$primary-color: #2A254B;
+$secondary-color: #22202E;
+$text-color: #726E8D;
+$font-family-clash: 'Clash Display';
+$font-family-satoshi: 'Satoshi';
+$white-color: white;
+$hover-color: inherit;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.delivery-section {
+  background-color: $primary-color;
+  display: flex;
+  flex-direction: row;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  margin-left: 516px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+
+  p {
+    font-family: $font-family-satoshi;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: $white-color;
+  }
+}
+
+.delivery-img {
+  padding-right: 8px;
+}
+
+.close {
+  padding-left: 485px;
+}
+
+h4 {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29.52px;
+  text-align: left;
+  color: $secondary-color;
+  font-family: $font-family-clash;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.header-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding-top: 5px;
+    padding-left: 152px;
+    font-family: $font-family-satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    gap: 44px;
+  
+    li {
+      color: $text-color;
+    }
+  }
+  
+  a {
+    text-decoration: none;
+  
+    &:hover {
+      color: $hover-color;
+    }
+  }
+  
+  .header-icons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-left: 310px;
+    padding-top: 7px;
+  
+    img {
+      width: 13.52px;
+      height: 13.52px;
+    }
+  }
+  
+  .tovar-items {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  h1 {
+    font-family: $font-family-clash;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44.28px;
+    text-align: left;
+    color: $primary-color;
+  }
+  
+  .price {
+    font-family: $font-family-satoshi;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32.4px;
+    text-align: left;
+    color: #12131A;
+  }
+  
+  .right h3 {
+    font-family: $font-family-clash;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.68px;
+    text-align: left;
+    color: $primary-color;
+  }
+  .description {
+    padding-top: 54px;
+    padding-left: 102px;
+    padding-right: 119px;
+  
+    ul, p {
+      font-family: $font-family-satoshi;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21.6px;
+      text-align: left;
+      color: $dark-gray; 
+    }
+  
+    p {
+      padding-top: 16px;
+    }
+  
+    ul {
+      padding-top: 23px;
+      padding-left: 25px;
+    }
+  }
+  
+  table {
+    padding-top: 15px;
+    border-spacing: 58px 12px;
+    margin-left: -58px;
+  
+    th {
+      font-family: $font-family-clash;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 17.22px;
+      text-align: left;
+      color: $primary-color;
+    }
+  
+    td {
+      font-family: $font-family-satoshi;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21.6px;
+      text-align: left;
+      color: $dark-gray; 
+    }
+  }
+  
+  .button {
+    font-family: $font-family-satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: #CAC6DA; 
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+  }
+  
+  .counter {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: $light-gray;
+    gap: 33px;
+    padding: 12px 16px;
+    margin-bottom: 25px;
+    margin-top: -15px;
+  }
+  
+  .number {
+    font-family: $font-family-satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+    color: $primary-color;
+  }
+  
+  .add {
+    width: 143px;
+    height: 56px;
+    gap: 10px;
+    opacity: 1;
+    background-color: $primary-color;
+    font-family: $font-family-satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: $white-color;
+    border: none;
+    margin-left: 171px;
+    padding-left: 32px;
+    margin-top: -15px;
+  }
+  
+  .main {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    padding-left: 102px;
+    padding-top: 91px;
+  }
+  
+  .dimensions {
+    padding-left: 102px;
+    padding-top: 50px;
+  }
+  
+  .amount {
+    display: flex;
+    flex-direction: row;
+    padding-top: 53px;
+    padding-left: 102px;
+  }
+  
+  .full-counter {
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+  }
+  .ceramics-items {
+    margin-top: 78px;
+  
+    h3 {
+      font-family: $font-family-clash;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 39.36px;
+      color: $primary-color;
+      margin-bottom: 33px;
+      text-align: left;
+    }
+  
+    p {
+      font-family: $font-family-satoshi;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      text-align: left;
+      color: $primary-color;
+    }
+  
+    button {
+      background-color: $light-gray;
+      color: $primary-color;
+      margin-top: 35px;
+      margin-bottom: 56px;
+    }
+  
+    h4 {
+      font-family: $font-family-clash;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 28px;
+      text-align: left;
+      color: $primary-color;
+    }
+  }
+  
+  .fphoto {
+    width: 305px;
+    height: 375px;
+  }
+  
+  .cards {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+  }
+  
+  #about {
+    padding-top: 20px;
+  
+    p {
+      padding-top: 8px;
+    }
+  }
+  
+  .but-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .view {
+    width: 170px;
+    height: 56px;
+    padding: 16px 32px;
+    gap: 10px;
+    opacity: 0;
+    background-color: $light-gray;
+    color: $primary-color;
+    border: none;
+    font-family: $font-family-satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+  }
+  .difference-items {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 86px;
+  
+    h3 {
+      font-family: $font-family-clash;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 33.6px;
+      color: $primary-color;
+      margin-top: 60px;
+      margin-bottom: 51px;
+      text-align: center;
+      margin-right: 20px;
+    }
+  }
+  
+  .text {
+    display: flex;
+    flex-direction: row;
+  
+    p {
+      font-family: $font-family-satoshi;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: $primary-color;
+      padding-top: 8px;
+    }
+  
+    img {
+      padding-bottom: 16px;
+    }
+  }
+  
+  .delivery {
+    margin-left: 5px;
+    width: 270px;
+  }
+  
+  .checkmark {
+    margin-left: 58px;
+    width: 266px;
+  }
+  
+  .card {
+    margin-left: 58px;
+    width: 235px;
+  }
+  
+  .sprout {
+    margin-left: 91px;
+    width: 265px;
+  }
+  
+  .difference h4 {
+    font-family: $font-family-clash;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: $primary-color;
+    margin-top: -5px;
+  }
+  .benefits {
+    background-color: $light-gray;
+    height: 481px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    h4 {
+      font-family: $font-family-clash;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 50.4px;
+      text-align: center;
+      color: $primary-color;
+    }
+  }
+  
+  .benefits-item {
+    background-color: $white-color;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 170px);
+    margin-left: 94px;
+    gap: 71px;
+    margin-top: -10px;
+  }
+  
+  .benefits-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 68px;
+  
+    p {
+      font-family: $font-family-satoshi;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      color: $primary-color;
+      width: 470px;
+    }
+  }
+  
+  .form {
+    margin-bottom: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  
+    ::placeholder {
+      font-family: $font-family-satoshi;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21.6px;
+      text-align: left;
+      background-color: $light-gray;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      padding-left: 32px;
+    }
+  }
+  
+  .field-benefits {
+    width: 354px;
+    height: 56px;
+    border: none;
+  }
+  
+  .button-benefits {
+    width: 118px;
+    height: 56px;
+    background-color: $primary-color;
+    color: $white-color;
+    font-family: $font-family-satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+  }
+  
+footer {
+  background-color: $primary-color;
+
+  a {
+    font-family: $font-family-satoshi;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: $white-color;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  h4 {
+    font-family: $font-family-clash;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.68px;
+    text-align: left;
+    color: $white-color;
+  }
+}
+
+.start {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #4E4D93;
+  padding-bottom: 36px;
+}
+
+.location {
+  margin-top: 55px;
+
+  h1 {
+    color: $white-color;
+    font-family: $font-family-clash;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 50.4px;
+    text-align: left;
+  }
+
+  p {
+    font-family: $font-family-satoshi;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.9px;
+    text-align: left;
+    color: $white-color;
+  }
+}
+
+.tips {
+  padding-top: 15px;
+
+  p {
+    &:nth-of-type(2),
+    &:nth-of-type(3),
+    &:nth-of-type(4) {
+      padding-top: 12px;
+    }
+  }
+}
+
+.second {
+  h4 {
+    font-family: $font-family-clash;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.68px;
+    text-align: left;
+    color: $white-color;
+    margin-top: 53px;
+    margin-left: 65px;
+  }
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  margin-left: 68px;
+  gap: 24px;
+  margin-top: 22px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 167px;
+  margin-top: 53px;
+}
+
+.categories, .company,.menu {
+  .list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 12px;
+  }
+}
+
+.categories {
+  padding-left: 109px;
+}
+
+.company {
+  padding-left: 135px;
+}
+
+.footer-last p {
+  color: $white-color;
+  font-family: $font-family-satoshi;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.9px;
+  text-align: left;
+  padding-top: 16px;
+  padding-bottom: 20px;
+}
+
+  

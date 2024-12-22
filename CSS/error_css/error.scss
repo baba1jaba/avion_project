@@ -1,0 +1,33 @@
+$primary-color: #2A254B;
+$background-color: #F9F9F9;
+
+.error-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: $background-color;
+  text-align: center;
+
+  h1 {
+    font-family: 'Clash Display';
+    font-size: 100px;
+    font-weight: 700;
+    color: $primary-color;
+    margin: 0;
+  }
+
+  p {
+    font-family: 'Satoshi';
+    font-size: 20px;
+    font-weight: 400;
+    color: $primary-color;
+    margin: 10px 0;
+  }
+
+  .subtext {
+    font-size: 16px;
+    color: $primary-color;
+  }
+}

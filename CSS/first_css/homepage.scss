@@ -1,0 +1,565 @@
+$primary-color: #2A254B;
+$secondary-color: #22202E;
+$text-color: #726E8D;
+$font-family-clash: 'Clash Display';
+$font-family-satoshi: 'Satoshi';
+$button-bg-color: rgba(249, 249, 249, 0.15);
+$white-color: white;
+$button-bg-color2:#F9F9F9;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+  h4 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29.52px;
+    text-align: center;
+    padding-top: 20px;
+    color: $secondary-color;
+    font-family: $font-family-clash;
+    padding-left: 80px;
+  }
+
+  .search {
+    width: 16px;
+    height: 16px;
+    margin: 26px -53px 90px;
+  }
+
+  .buy_user {
+    display: flex;
+    justify-content: space-between;
+    width: 48px;
+    margin-right: -53px;
+
+    .shop,
+    .user {
+      width: 16px;
+      height: 16px;
+      margin: 26px 0 90px;
+    }
+  }
+}
+
+.header-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 303px;
+
+  li {
+    list-style: none;
+    color: $text-color;
+    font-family: $font-family-satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+  }
+}
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+.info {
+  width: 760px;
+  height: 584px;
+  background-color: $primary-color;
+}
+.collection-items {
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    justify-content: center;
+    margin-bottom: 60px;
+  
+    img {
+      width: 520px;
+      height: 584px;
+    }
+  }
+  
+  .features {
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 187px;
+  
+    h2 {
+      font-family: $font-family-clash;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 44.8px;
+      text-align: left;
+      color: $white-color;
+    }
+  }
+  
+  button {
+    width: 170px;
+    height: 56px;
+    font-family: $font-family-satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: $white-color;
+    background-color: $button-bg-color;
+    border: none;
+    margin-top: 41px;
+  }
+  
+  .info {
+    p {
+      color: $white-color;
+      font-family: $font-family-satoshi;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      margin-top: 196px;
+      margin-left: 60px;
+      margin-right: 98px;
+      margin-bottom: 60px;
+    }
+  }
+  .difference-items {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 86px;
+    h3 {
+      font-family: $font-family-clash;
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 33.6px;
+      color: $primary-color;
+      margin-top: 60px;
+      margin-bottom: 51px;
+      text-align: center;
+      margin-right: 20px;
+    }
+  }
+  h4 {
+    font-family: $font-family-clash;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    color: $primary-color;
+  }
+  .text {
+    display: flex;
+    flex-direction: row;
+  
+    p {
+      font-family: $font-family-satoshi;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: $primary-color;
+      padding-top: 8px;
+    }
+  
+    img {
+      padding-bottom: 16px;
+    }
+  }
+  
+  .delivery {
+    margin-left: 5px;
+    width: 270px;
+  }
+  
+  .checkmark {
+    margin-left: 58px;
+    width: 266px;
+  }
+  
+  .card {
+    margin-left: 58px;
+    width: 235px;
+  }
+  
+  .sprout {
+    margin-left: 91px;
+    width: 265px;
+  }
+  
+  .fphoto {
+    width: 305px;
+    height: 375px;
+  }
+  .ceramics-items {
+    margin-top: 162px;
+  
+    h3 {
+      font-family: $font-family-clash;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 39.36px;
+      color: $primary-color;
+      margin-bottom: 33px;
+      text-align: left;
+    }
+  
+    p {
+      font-family: $font-family-satoshi;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      text-align: left;
+      color: $primary-color;
+    }
+  
+    button {
+      background-color: $button-bg-color; 
+      color: $primary-color;
+      margin-top: 35px;
+      margin-bottom: 56px;
+    }
+  }
+  
+  .cards {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+  }
+  
+  #about {
+    padding-top: 20px;
+  
+    p {
+      padding-top: 8px;
+    }
+  }
+  
+  .but-container {
+    display: flex;
+    justify-content: center;
+  }
+  .popular-items {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 70px;
+  
+    h3 {
+      font-family: $font-family-clash;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 39.36px;
+      color: $primary-color;
+      margin-bottom: 33px;
+      text-align: left;
+    }
+  
+    p {
+      font-family: $font-family-satoshi;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+      text-align: left;
+      color: $primary-color;
+    }
+  
+    button {
+      background-color: $button-bg-color;
+      color: $primary-color;
+      margin-top: 42px;
+      margin-bottom: 48px;
+    }
+  }
+  
+  .cards {
+    margin-top: -2px;
+  }
+  .benefits {
+    background-color: $button-bg-color2;
+    height: 481px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    h1 {
+      font-family: $font-family-clash;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 50.4px;
+      text-align: center;
+      color: $primary-color;
+    }
+  
+    .benefits-item {
+      background-color: $white-color;
+      display: flex;
+      flex-direction: column;
+      width: calc(100% - 170px);
+      margin-left: 94px;
+      gap: 71px;
+      margin-top: -10px;
+    }
+  
+    .benefits-text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      margin-top: 68px;
+  
+      p {
+        font-family: $font-family-satoshi;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: $primary-color;
+        width: 470px;
+      }
+    }
+  
+    .form {
+      margin-bottom: 54px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+  
+      ::placeholder {
+        font-family: $font-family-satoshi;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.6px;
+        text-align: left;
+        background-color: $button-bg-color;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        padding-left: 32px;
+      }
+    }
+  
+    .field-benefits {
+      width: 354px;
+      height: 56px;
+      border: none;
+    }
+  
+    .button-benefits {
+      width: 118px;
+      height: 56px;
+      background-color: $primary-color;
+      color: $white-color;
+      font-family: $font-family-satoshi;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      border: none;
+    }
+  }
+  .studio-item {
+    background-color: $button-bg-color2;
+    display: flex;
+    flex-direction: row;
+  
+    .left {
+      background-color: $white-color;
+      padding-left: 85px;
+      padding-right: 122px;
+      padding-top: 45px;
+  
+      h3 {
+        font-family: $font-family-clash;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 33.6px;
+        text-align: left;
+        padding-top: 28px;
+        color: $primary-color;
+        width: 514px;
+      }
+  
+      p {
+        font-family: $font-family-satoshi;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 21.6px;
+        text-align: left;
+        color: #505977;
+      }
+  
+      .fline {
+        padding-top: 27px;
+      }
+  
+      .sline {
+        padding-top: 20px;
+      }
+  
+      button {
+        background-color: $button-bg-color2;
+        width: 150px;
+        color: $primary-color;
+        margin-top: 196px;
+        margin-bottom: 54px;
+      }
+    }
+  }
+  footer {
+    background-color: $primary-color;
+  
+    a {
+      color: $white-color;
+    }
+  
+    h4 {
+      font-family: $font-family-clash;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 19.68px;
+      text-align: left;
+      color: $white-color;
+      padding-bottom: 12px;
+    }
+  
+    li {
+      font-family: $font-family-satoshi;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18.9px;
+      text-align: left;
+      list-style: none;
+      color: $white-color;
+      padding-bottom: 12px;
+    }
+  }
+  
+  nav {
+    display: flex;
+    padding-top: 55px;
+    padding-left: 2px;
+  }
+  
+  .menu {
+    padding-bottom: 65px;
+  }
+  
+  .categories {
+    padding-left: 109px;
+  }
+  
+  .company {
+    padding-left: 133px;
+  }
+  
+  .footer-first {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #4E4D93;
+  }
+  
+  .footer-form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 109px;
+    padding-top: 58px;
+  
+    h4 {
+      margin-top: -3px;
+    }
+  }
+  
+  .field-footer {
+    width: 509px;
+    height: 56px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border: none;
+  
+    ::placeholder {
+      color: $white-color;
+      font-family: $font-family-satoshi;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 21.6px;
+      text-align: left;
+      padding-top: 17px;
+      padding-bottom: 17px;
+      padding-left: 32px;
+    }
+  }
+  
+  .inputs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+  }
+  
+  .inputs .footer-button {
+    width: 118px;
+    height: 56px;
+    background-color: $white-color;
+    color: $primary-color;
+    font-family: $font-family-satoshi;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    border: none;
+  }
+  
+  .footer-last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 20px;
+  
+    p {
+      font-family: $font-family-satoshi;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 18.9px;
+      text-align: left;
+      color: $white-color;
+    }
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+  }
+
+  .cards {
+    .firstcard,
+    .seccard,
+    .thirdcard,
+    .fourthcard {
+      transition: 1s;
+  
+      &:hover {
+        transform: scale(1.2);
+        box-shadow: #2A254B 1px 0px 10px;
+      }
+    }
+  }
